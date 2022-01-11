@@ -2,6 +2,9 @@
   "name": "mern-client",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "7.x"
+  },
   "proxy": "http://localhost:3001/",
   "dependencies": {
     "@apollo/client": "^3.3.7",
@@ -14,7 +17,9 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "4.0.2"
+    "react-scripts": "4.0.2",
+    "@reduxjs/toolkit": "^1.7.1",
+    "react-redux": "^7.2.6"
   },
   "scripts": {
     "start": "react-scripts start",
